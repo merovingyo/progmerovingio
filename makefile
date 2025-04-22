@@ -17,3 +17,6 @@ pip:
 
 test:
 	$(BIN)/pytest -sv
+
+test_entry_coin:
+	$(BIN)/pytest -sv progmerovingio/tests/test_303.py::test_entry_coin
